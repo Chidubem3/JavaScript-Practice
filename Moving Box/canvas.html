@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Class</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+           
+            height: 91vh;
+            background-color: teal;
+            display: grid;
+            place-items: center;
+        }
+        canvas{
+            background-color: white;
+        }
+        #btn{
+            display: grid;
+            grid-template-rows: 1fr;
+            width: 12rem;
+            justify-items: center;           
+            
+        }
+        .sides{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        button{
+            padding: 0.2rem;
+            border-radius: 0.4rem;
+            border-color: teal;
+            font-weight: bolder;
+
+            color: white;
+            background-color: black;
+        }
+        article{
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .direction{
+            font-family: cursive;
+        }
+        h1{
+            font-family: monospace;
+            font-size: 3rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Moving Box</h1>
+    <div>
+        <canvas id="myCanvas" width="1000" height="500"></canvas>
+        <article>
+            <section id="btn">
+                <button id="upBtn">Move Up</button>
+                <div class="sides">
+                    <button id="leftBtn">Move Left</button>
+                    <button id="rightBtn">Move Right</button>
+
+                </div>  
+                <button id="downBtn">Move Down</button>
+            </section>
+            <div class="direction">
+                <h4>Direction using keybored</h4>
+                <p>"W" for Up</p>
+                <p>"A" for Left</p>
+                <p>"D" for Right</p>
+                <p>"S" for Down</p>
+            </div>
+        </article>
+        
+    </div>
+     
+    
+    <script src="canvas.js"></script>
+</body>
+</html>
