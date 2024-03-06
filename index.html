@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+        }
+        body{
+            background-color: rgb(238, 238, 238);
+            align-items: center;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        img{
+            transition: all 1s;
+            width: 100%;
+            height: 350px;
+            padding: 10px;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+        div{
+            background-color: #fff;
+            border-radius: 10px;
+            color: #333;
+            /* horizintal-offset vertical-offset blur color of the shadow */
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) ;
+            padding: 0 40px ;
+            margin: 10px;
+        }
+        h2{
+           padding: 20px;
+        }
+        h1{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Here are List oF Some Basic JavaScript Project</h1>
+    <section>
+        <div>
+            <h2>Calculator</h2>
+            <a href="/calculator/index.html"><img src="image/calculator.png" alt=""></a>
+            
+        </div>
+        <div>
+            <h2>Moving Box With Canvas</h2>
+            <a href="/Moving Box/canvas.html"><img src="image/box.png" alt=""></a>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
