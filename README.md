@@ -1,1 +1,1 @@
-[View Site](https://JavaScript-Practice.github.io)
+[View Site](https://chidubem3.github.io/JavaScript-Practice/)
